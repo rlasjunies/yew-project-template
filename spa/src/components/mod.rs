@@ -19,4 +19,3 @@ pub enum AppRoute {
 pub use app_container::AppContainer;
 pub use page1::Page1;
 pub use page2::Page2;
-

@@ -23,11 +23,6 @@ impl Component for Page1 {
     fn view(&self) -> Html {
         html! {
             <div class="full-height">
-                <menu>
-                    <a href="/app/main">{ "Home" }</a>
-                    <a href="/app/page1">{ "Page1" }</a>
-                    <a href="/app/page2">{ "Page2" }</a>
-                </menu>
                 <h1>{"Page1"}</h1>
             </div>
         }

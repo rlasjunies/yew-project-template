@@ -43,6 +43,10 @@ button, a.link-button {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+a {
+    padding: 10px;
+}
+
 a.link-button {
     cursor: pointer;
 }
@@ -50,7 +54,6 @@ a.link-button {
 a.link-button:hover {
     text-decoration: underline;
 }
-
 
 /*  */
 
@@ -63,17 +66,6 @@ a.link-button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-.side-pane {
-    width: 20%;
-    min-width: 200px;
-    padding-right: 30px;
-}
-
-.main-pane {
-    min-width: 200px;
-    width: 80%;
 }
 
 .page-title {
