@@ -41,3 +41,9 @@ wasm-pack build --debug --no-typescript --out-name spa --target web
 - open your webbrowser at the URL <http://127.0.0.1::8080>
 
 Enjoy!
+
+## What's next
+
+- [ ] build both project in one command line
+- [ ] file watching
+- [ ] web portal auto refresh
