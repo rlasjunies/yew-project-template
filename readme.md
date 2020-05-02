@@ -16,6 +16,8 @@ This template come with:
 
 ## How to use
 
+> Rust & wasm are dependencies for this project
+
 - download the project
 
 ```bash
@@ -47,3 +49,9 @@ Enjoy!
 - [ ] build both project in one command line
 - [ ] file watching
 - [ ] web portal auto refresh
+
+## Reminder
+
+If you are using vs-code with the `rls-vscode` extension, do not forget to add the folder in vscode `Workspace`
+
+> `File > Add Folder to Workspace...` select the main folder of the template not `spa` neither `server`
