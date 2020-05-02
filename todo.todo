@@ -1,0 +1,11 @@
+☐ analyse if there is really a problem with Rust Workspace and VSCode
+
+☐ create a file watcher
+    https://github.com/notify-rs/notify
+
+☐ update the web portal when the build is done
+    websocket refresh
+    have a look in Actix website there is something related to automatic reload ... that may help
+
+☐ check this post, it explain how to do without additional tricks
+https://dev.to/dandyvica/wasm-in-rust-without-nodejs-2e0c

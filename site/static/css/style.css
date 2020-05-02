@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    font-family: Optima, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-size: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.full-height {
+    height: calc(100% - 20px);
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color:#273c75;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.spacer-50 {
+    margin-bottom: 50px;
+    content: " ";
+}
+
+button, a.link-button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a.link-button {
+    cursor: pointer;
+}
+
+a.link-button:hover {
+    text-decoration: underline;
+}
+
+
+/*  */
+
+#app-container {
+    padding: 15px;
+    height: calc(100% - 30px);    
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.side-pane {
+    width: 20%;
+    min-width: 200px;
+    padding-right: 30px;
+}
+
+.main-pane {
+    min-width: 200px;
+    width: 80%;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    color: #2c3e50;
+}
+

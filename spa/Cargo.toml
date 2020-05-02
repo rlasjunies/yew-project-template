@@ -1,0 +1,17 @@
+[package]
+name = "spa"
+version = "0.1.0"
+authors = ["Clark Kent<clark@krypton.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# anyhow = "1.0"
+# serde = { version = "1.0", features = ["derive"] }
+# web-sys = { version = "0.3", features = ["HtmlElement", "HtmlInputElement", "Node"] }
+# js-sys = "0.3"
+yew-router = "0.12"
+yew = "0.15"
+wasm-bindgen = "^0.2"
