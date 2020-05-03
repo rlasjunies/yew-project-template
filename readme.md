@@ -25,19 +25,21 @@ git clone https://github.com/rlasjunies/yew-project-template
 
 ```
 
-- build the server project
-
-```bash
-cd server
-cargo run
-```
-
 - build the spa project
 
 In another command line
 
 ```bash
 wasm-pack build --debug --no-typescript --out-name spa --target web
+```
+
+- run the server project
+
+> important! do not start the server before the **end** of the compilation of the spa. If not, an error is shown starting the server ... ~ path not found ... and the spa will not be loaded
+
+```bash
+cd server
+cargo run
 ```
 
 - open your webbrowser at the URL <http://127.0.0.1::8080>
